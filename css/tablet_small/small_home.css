@@ -1,0 +1,175 @@
+/* section1 */
+
+.section1 {
+  height: 80vmin;
+  padding: 0 3rem;
+}
+
+.section1_btn > div:nth-child(1) {
+  margin-top: 8rem;
+}
+.section1_btn > div:nth-child(2) {
+  margin: 1.75rem 0;
+}
+
+.colla_1 {
+  min-width: 9.25rem;
+  width: 16rem;
+  top: 1.5rem;
+}
+.colla_2 {
+  min-width: 4rem;
+  width: 6.6rem;
+  top: 6.5rem;
+}
+.colla_3 {
+  min-width: 6.3rem;
+  width: 10.65rem;
+  top: -0.5rem;
+}
+.colla_4 {
+  min-width: 5.9rem;
+  width: 9.95rem;
+  top: 6rem;
+  left: 80%;
+}
+
+.slim_1 {
+  width: 16rem;
+  min-width: 9rem;
+}
+
+.slim_2 {
+  width: 10.35rem;
+  min-width: 5.9rem;
+  top: 8.75rem;
+}
+
+.slim_3 {
+  width: 10.7rem;
+  min-width: 6.5rem;
+}
+.slim_4 {
+  width: 6.55rem;
+  min-width: 3.75rem;
+  top: 6.5rem;
+  left: 87%;
+}
+
+.perfect_1 {
+  width: 15.85rem;
+  min-width: 9.35rem;
+}
+.perfect_2 {
+  width: 10.15rem;
+  min-width: 5.85rem;
+  top: 8.5rem;
+}
+.perfect_3 {
+  width: 6.55rem;
+  min-width: 3.7rem;
+  top: 6rem;
+}
+.perfect_4 {
+  width: 10.65rem;
+  min-width: 6.5rem;
+}
+
+.click_down {
+  bottom: 1.5rem;
+}
+
+/* section2 */
+
+.section2 {
+  padding: 1rem 0 3rem;
+}
+
+.section_title {
+  font-size: 1.6rem;
+}
+
+.home_products {
+  padding: 1rem 1.5rem 3rem;
+}
+
+.products_btn {
+  width: 7rem;
+  height: 2.3rem;
+  font-size: 0.65rem;
+  padding-top: 0.75rem;
+}
+
+/* section3 */
+
+.banner {
+  height: 26.2rem;
+}
+
+.banner_title {
+  font-size: 2.25rem;
+  letter-spacing: 0.5rem;
+}
+
+.banner_text {
+  font-size: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+/* section4 */
+
+.section4 {
+  padding: 0 2.5rem;
+}
+
+.home_section4_wrap p {
+  font-size: 2.5vw;
+}
+.home_section4_wrap a {
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+
+/* section5 */
+
+.section5 {
+  padding: 0 2.5rem;
+}
+
+.section4_textwrap > a,
+.section4_textwrap_big > a {
+  font-size: 1.8vw;
+}
+
+.section5 .section_title {
+  padding: 0 0 2.5rem;
+}
+
+.section5_social {
+  display: none;
+}
+
+.section5_social_mobile {
+  display: block;
+}
+
+.section5_social_mobile {
+  width: 100%;
+}
+
+.section5_social_mobile > div {
+  display: flex;
+}
+
+.section5_social_mobile img {
+  width: calc(100% / 3);
+  height: auto;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.section5_social_mobile img:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,22 @@
+.header {
+  padding: 1.5rem 2rem;
+  font-size: 1rem;
+}
+
+.header_size {
+  padding: 1.25rem 2rem;
+}
+
+.header_nav {
+  width: 14rem;
+}
+
+.nav_left {
+  font-size: 1.25rem;
+}
+
+.nav_right {
+  font-size: 0.75rem;
+  top: 8.5rem;
+  left: 4rem;
+}

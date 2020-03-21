@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Gothic+A1:300,400,500,600,700|Montserrat:300,400,500,600,700&display=swap");
+@import "./reset.css";
+@import "./header.css";
+@import "./footer.css";
+@import "./home.css";
+@import "./products.css";
+@import "./skindiet.css";
+@import "./brand.css";
+
+* {
+  box-sizing: border-box;
+}
+
+.swiper-container-autoheight,
+.swiper-container-autoheight .swiper-slide {
+  height: 100%;
+}
+
+html {
+  font-size: 20px;
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Gothic A1", sans-serif;
+}
+
+.wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.disnone {
+  display: none;
+}

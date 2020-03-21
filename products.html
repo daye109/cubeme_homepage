@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/ce55f2c361.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      media="( max-width : 1300px ) and (min-width : 1051px) "
+      href="./css/tablet/tablet_styles.css"
+    />
+    <link
+      rel="stylesheet"
+      media="( max-width : 1050px ) and (min-width : 580px) "
+      href="./css/tablet_small/small_styles.css"
+    />
+    <link
+      rel="stylesheet"
+      media="( max-width : 579px ) "
+      href="./css/mobile/mobile_styles.css"
+    />
+    <title>Products</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="header">
+        <a href="./index.html" class="header_logo">CUBE ME</a>
+        <div class="header_right">
+          <ul class="header_language_big">
+            <li class="header_lang" id="big_eng">ENG</li>
+            <li class="header_lang lang_deco" id="big_kor">KOR</li>
+            <li class="header_lang" id="big_chn">CHN</li>
+          </ul>
+          <div class="mobile_lang_container">
+            <p class="mobile_lang_text">KOR</p>
+            <div class="mobile_lang_btn">
+              <i class="fas fa-angle-down" id="mobile_down"></i>
+              <i class="fas fa-angle-up disnone" id="mobile_up"></i>
+            </div>
+            <ul class="mobile_lang_box disnone">
+              <li class="mobile_lang" id="small_eng">ENG</li>
+              <li class="mobile_lang" id="small_kor">KOR</li>
+              <li class="mobile_lang" id="small_chn">CHN</li>
+            </ul>
+          </div>
+          <ul class="header_nav_btn" id="#js_nav_btn">
+            <li class="btn_bar btn_bar1"></li>
+            <li class="btn_bar btn_bar2"></li>
+            <li class="btn_bar btn_bar3"></li>
+          </ul>
+        </div>
+        <nav class="header_nav">
+          <div class="nav_left">
+            <a href="./products.html" class="nav_products">Products</a>
+            <a href="./brand.html" class="nav_brand">Brand</a>
+          </div>
+          <div class="nav_right">
+            <a href="./products.html">All Products</a>
+            <a href="./skin.html" class="nav_skin">Skin Line</a>
+            <a href="./diet.html">Diet Line</a>
+          </div>
+        </nav>
+      </header>
+      <div class="main">
+        <section class="products_sec1">
+          <img
+            class="products_banner"
+            src="./images/sub_products/banner.jpg"
+            alt=""
+          />
+          <a href="#" class="products_banner_mobile"></a>
+          <span class="products_banner_title">Feel Good Life & Beauty</span>
+        </section>
+        <section class="products_category products_bg">
+          <article class="products_title">
+            <div>
+              <p>Skin products</p>
+              <p>Beauty Skin by Eating</p>
+            </div>
+            <a href="./skin.html">SKIN 제품 보기</a>
+          </article>
+          <article class="swiper-container products_swiper_container ">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide products_swiper slim_swiper">
+                <img src="./images/sub_products/slim_collagen.png" alt="" />
+                <span class="product_name">COLLAGEN CUBE</span>
+                <p class="product_day">4 / 7 Weeks</p>
+              </div>
+              <div class="swiper-slide products_swiper slim_swiper">
+                <img src="./images/sub_products/slim_waterbank.png" alt="" />
+                <span class="product_name">WATERBANK CUBE</span>
+                <p class="product_day">4 / 7 Weeks</p>
+              </div>
+              <div class="swiper-slide products_swiper slim_swiper">
+                <img src="./images/sub_products/slim_shine.png" alt="" />
+                <span class="product_name">SHINE CUBE</span>
+                <p class="product_day">28 / 30 Days</p>
+              </div>
+              <div class="swiper-slide products_swiper slim_swiper">
+                <img src="./images/sub_products/slim_clean.png" alt="" />
+                <span class="product_name">CLEAN CUBE</span>
+                <p class="product_day">4 / 7 Weeks</p>
+              </div>
+              <div class="swiper-slide products_swiper slim_swiper">
+                <img src="./images/sub_products/slim_youth.png" alt="" />
+                <span class="product_name">YOUTH CUBE</span>
+                <p class="product_day">4 / 7 Weeks</p>
+              </div>
+              <div class="swiper-slide products_swiper slim_swiper">
+                <img src="./images/sub_products/slim_perfect.png" alt="" />
+                <span class="product_name">PERFECT CUBE</span>
+                <p class="product_day">4 Weeks</p>
+              </div>
+            </div>
+            <div class="swiper-button-next">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="fas fa-chevron-left"></i>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </article>
+        </section>
+        <section class="products_category">
+          <article class="products_title">
+            <div>
+              <p>Diet products</p>
+              <p>Slim Fit by Eating</p>
+            </div>
+            <a href="./skin.html">Diet 제품 보기</a>
+          </article>
+          <article class="swiper-container products_swiper_container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide products_swiper diet_swiper">
+                <img src="./images/sub_products/diet_block.png" alt="" />
+                <span class="product_name">BLOCK CUBE</span>
+                <p class="product_day">3 / 8 Weeks</p>
+              </div>
+              <div class="swiper-slide products_swiper diet_swiper">
+                <img src="./images/sub_products/diet_cut.png" alt="" />
+                <span class="product_name">CUT CUBE</span>
+                <p class="product_day">4 / 8 Weeks</p>
+              </div>
+              <div class="swiper-slide products_swiper diet_swiper">
+                <img src="./images/sub_products/diet_empty.png" alt="" />
+                <span class="product_name">EMPTY CUBE</span>
+                <p class="product_day">4 / 8 Days</p>
+              </div>
+              <div class="swiper-slide products_swiper diet_swiper">
+                <img src="./images/sub_products/diet_pack.png" alt="" />
+                <span class="product_name">SLIM CUBE</span>
+                <p class="product_day">2 / 4 Weeks</p>
+              </div>
+            </div>
+            <div class="swiper-button-next">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="fas fa-chevron-left"></i>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </article>
+        </section>
+      </div>
+    </div>
+    <footer class="footer">
+      <a href="#" class="footer_logo">CUBE ME</a>
+      <div class="footer_box">
+        <a href="#" class="footer_link">Products</a>
+        <a href="#" class="footer_link">Brand</a>
+        <a href="#" class="footer_link">Help</a>
+        <a href="#" class="footer_link">Contact us</a>
+      </div>
+      <ul class="footer_info">
+        <li>(주)아모레퍼시픽 대표이사 : 안세홍</li>
+        <li>사업자등록번호 : 106-86-43373</li>
+        <li>서울특별시 용산구 한강대로 100</li>
+        <li>제품 문의 고객센터 : 080-023-5454 (수신자요금부담)</li>
+      </ul>
+      <p class="footer_copy">©2020. kdy-kdy All rights reserved</p>
+      <div class="footer_social">
+        <a href="#" class="footer_facebook"
+          ><i class="fab fa-facebook-square"></i
+        ></a>
+        <a href="#" class="footer_insta"><i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+
+    <script src="./javascript/swiper.js"></script>
+    <script src="./javascript/header.js"></script>
+    <script src="./javascript/mobile/mobile_header.js"></script>
+  </body>
+</html>

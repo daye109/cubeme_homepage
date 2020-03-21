@@ -1,0 +1,137 @@
+.header {
+  width: 100%;
+  padding: 1.75rem 2rem;
+  position: fixed;
+  font-size: 1.15rem;
+  transition: all 0.5s;
+  z-index: 100;
+  
+}
+
+.header .header_logo {
+  padding-top: 0.25rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  color: #303030;
+  float: left;
+}
+
+.header .header_right {
+  float: right;
+}
+
+.header .header_right,
+.header .header_language_big {
+  display: flex;
+  align-items: center;
+}
+
+.header_lang {
+  margin: 0 0.75rem;
+  font-size: 0.675rem;
+  font-weight: 600;
+  color: #888888;
+  padding: 0.25rem 0 0.2rem;
+  cursor: pointer;
+}
+
+.header .header_nav_btn {
+  margin-left: 0.75rem;
+  width: 1.3rem;
+  height: 1.2rem;
+  position: relative;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.header_nav_btn .btn_bar {
+  height: 0.15rem;
+  background-color: black;
+  position: absolute;
+  left: 0;
+}
+
+.btn_bar1 {
+  width: 1.2rem;
+  top: 0;
+}
+
+.btn_bar2 {
+  width: 1.2rem;
+  top: calc(50% - 0.075rem);
+}
+
+.btn_bar3 {
+  width: 1.2rem;
+  bottom: 0;
+}
+
+.header .mobile_lang_container {
+  display: none;
+}
+
+.header_nav {
+  width: 25rem;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: -25rem;
+  background-color: white;
+  z-index: 50;
+  transition: all 0.5s;
+  padding: 5.75rem 6.05rem 0 4rem;
+}
+
+.nav_left {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav_left .nav_brand {
+  margin: 7.5rem 0 2.5rem;
+}
+
+.nav_right {
+  font-size: 0.9rem;
+  position: absolute;
+  top: 6.25rem;
+  left: 12.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav_right .nav_skin {
+  margin: 1rem 0;
+}
+/* javascript classList */
+
+.btn_rotate_top {
+  width: 1.5rem;
+  transform: rotate(45deg);
+  transform-origin: left;
+}
+
+.btn_rotate_bottom {
+  width: 1.5rem;
+  transform: rotate(-45deg);
+  transform-origin: left;
+}
+
+.nav_show {
+  right: 0;
+}
+
+.lang_deco {
+  color: black;
+  border-bottom: 0.1rem solid;
+  font-weight: 700;
+}
+
+.header_size {
+  font-size: 1rem;
+  padding: 1.35rem 2rem;
+  background-color: rgba(255, 255, 255, 0.63);
+  box-shadow: 0.25rem 0 0.25rem rgba(128, 128, 128, 0.288);
+}

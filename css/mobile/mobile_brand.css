@@ -1,0 +1,100 @@
+/* banner  */
+
+.brand_banner_mobile {
+  display: block;
+  padding-top: 80%;
+  background: url("../../images/brand/brand_banner_m.jpg") no-repeat center 100%;
+  background-size: cover;
+  background-position: 50% 11%;
+}
+
+.brand_sec1 .brand_banner {
+  display: none;
+}
+
+/* section2 */
+
+.brand_sec2 {
+  padding: 12% 0.75rem;
+}
+
+.brand_sec2 > h1 {
+  font-size: 2rem;
+}
+
+.brand_sec2 > p:nth-of-type(1) {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+
+.brand_sec2 > p:nth-of-type(2) {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+
+.wellness_img_container .wellness_img {
+  opacity: 1;
+}
+
+.wellness_center {
+  max-width: 65%;
+  display: block;
+  margin: 0;
+  padding: 40% 0 5%;
+}
+
+.wellness_topleft {
+  max-width: 35%;
+  top: 0;
+  left: 16.5%;
+}
+
+.wellness_topright {
+  max-width: 45%;
+  top: 15%;
+  right: 0;
+  z-index: -1;
+}
+.wellness_botleft {
+  display: none;
+}
+
+.wellness_botright {
+  display: none;
+}
+
+/* section3 */
+
+.brand_sec3 {
+  padding: 0 1.5rem;
+}
+
+.brand_story {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.brand_story > div {
+  display: block;
+  width: 100%;
+}
+
+.brand_story > div > img {
+  max-width: 100%;
+}
+
+.brand_story p {
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.1rem;
+  margin-top: 2.5rem;
+}
+
+.brand_story:nth-child(2) > div:nth-child(1) {
+  order: 2;
+}
+
+.brand_story:nth-child(2) > div:nth-child(2) {
+  order: 1;
+}

@@ -1,0 +1,44 @@
+.section1_box {
+  margin-top: 7.5rem;
+}
+
+.section1 {
+  padding: 0 1.5rem;
+}
+
+.section1_btn > div:nth-child(1) {
+  margin-top: 12.5rem;
+}
+
+.colla_2 {
+  top: 12.5rem;
+}
+
+.slim_4 {
+  top: 12.5rem;
+}
+.perfect_1 {
+  top: 0.5rem;
+}
+.perfect_2 {
+  top: 12rem;
+}
+
+/* section3 */
+
+.banner {
+  height: 28.8rem;
+}
+
+/* section4 */
+
+.section4 {
+  width: 100%;
+  padding: 0 2.5rem;
+}
+
+/* section5 */
+
+.section5 {
+  padding: 0 2.5rem;
+}

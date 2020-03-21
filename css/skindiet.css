@@ -1,0 +1,113 @@
+/* skin, diet banner */
+
+.skin_banner_mobile,
+.diet_banner_mobile {
+  display: none;
+}
+
+.skin_banner_pc > div,
+.diet_banner_pc > div {
+  width: 50%;
+  height: 100vh;
+  float: left;
+}
+
+.skin_banner_l {
+  background: url("../images/sub_skin/skin_banner.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.skin_banner_r {
+  background: url("../images/sub_skin/skin_banner_p.jpg") no-repeat center
+    center;
+  background-size: cover;
+}
+
+.diet_banner_l {
+  background: url("../images/sub_diet/diet_banner.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.diet_banner_r {
+  background: url("../images/sub_diet/diet_banner_p.jpg") no-repeat center
+    center;
+  background-size: cover;
+}
+
+.diet_banner_r > p,
+.skin_banner_r > p {
+  text-align: center;
+  margin-top: 40vh;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  line-height: 4rem;
+}
+
+/* product  */
+
+.sd_products {
+  clear: both;
+  padding: 4rem;
+}
+
+.sd_products > a {
+  width: calc((100% - (0.5rem * 2 * 2)) / 2);
+  margin: 0.5rem;
+  float: left;
+  position: relative;
+  background-color: #f6f6f6;
+  z-index: 1;
+}
+
+.products_img_p {
+  width: 100%;
+  height: auto;
+  z-index: 20;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sd_products > a:hover > .products_img_p {
+  opacity: 1;
+}
+
+.product_detail {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 13% 0;
+}
+
+.product_detail > * {
+  text-align: center;
+}
+
+.product_detail > h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+}
+
+.product_detail > p {
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+  letter-spacing: 0.05rem;
+}
+
+.product_detail > img {
+  display: block;
+  margin: 0 auto;
+  width: 41%;
+  height: auto;
+  position: relative;
+  z-index: -2;
+}
+
+.blank {
+  clear: both;
+  width: 100%;
+  height: 4rem;
+}

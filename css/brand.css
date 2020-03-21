@@ -1,0 +1,129 @@
+/* banner */
+
+.brand_sec1 {
+  position: relative;
+}
+
+.brand_sec1 .brand_banner {
+  max-width: 100%;
+  height: auto;
+}
+
+.brand_banner_mobile {
+  display: none;
+}
+
+/* section2 */
+
+.brand_sec2 {
+  width: 100%;
+  height: auto;
+  padding: 12% 4.5rem;
+}
+
+.brand_sec2 > h1,
+.brand_sec2 > p {
+  width: 100%;
+  text-align: center;
+}
+
+.brand_sec2 > h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+
+.brand_sec2 > p:nth-of-type(1) {
+  padding: 2% 0 8%;
+  line-height: 1.4rem;
+}
+
+.brand_sec2 > p:nth-of-type(2) {
+  padding-top: 5%;
+  font-size: 1.15rem;
+  line-height: 1.65rem;
+}
+
+.brand_sec2 .wellness_img_container {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.wellness_img {
+  position: absolute;
+  height: auto;
+  vertical-align: bottom;
+  opacity: 0;
+}
+
+.brand_opacity {
+  opacity: 1;
+}
+
+.wellness_center {
+  max-width: 35.5%;
+  display: block;
+  margin: 0 auto;
+  padding: 4% 0 15%;
+}
+
+.wellness_topleft {
+  max-width: 18%;
+  top: 0;
+  left: 10.5%;
+  transition: all 0.9s;
+}
+
+.wellness_topright {
+  max-width: 20%;
+  top: 0;
+  right: 8.5%;
+  transition: all 2.5s;
+}
+
+.wellness_botleft {
+  max-width: 22%;
+  top: 0;
+  left: 14%;
+  margin-top: 22.2%;
+  transition: all 1.2s;
+}
+
+.wellness_botright {
+  max-width: 17%;
+  top: 0;
+  left: 65%;
+  padding-top: 26.5%;
+  transition: all 2.7s;
+}
+
+/* section3 */
+
+.brand_sec3 {
+  padding: 0 4.5rem;
+}
+
+.brand_story {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin-bottom: 5rem;
+}
+
+.brand_story > div {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.brand_story > div > img {
+  max-width: 95%;
+  height: auto;
+}
+
+.brand_story p {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+}

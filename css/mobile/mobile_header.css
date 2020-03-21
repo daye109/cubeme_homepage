@@ -1,0 +1,99 @@
+.header {
+  padding: 1rem 1rem;
+  font-size: 0.9rem;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.header_size {
+  background-color: rgba(255, 255, 255, 0.63);
+  box-shadow: 0.25rem 0 0.25rem rgba(128, 128, 128, 0.288);
+}
+
+.header .header_language_big {
+  display: none;
+}
+
+.header .mobile_lang_container {
+  display: block;
+  position: relative;
+}
+
+.mobile_lang_text {
+  padding-top: 0.4rem;
+  font-size: 0.65rem;
+  display: inline-block;
+  width: 1.4rem;
+}
+
+.mobile_lang_btn {
+  display: inline-block;
+  font-size: 0.65rem;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+  color: #888888;
+}
+
+.mobile_lang_container .mobile_lang_box {
+  position: absolute;
+  top: 1.5rem;
+  left: -1rem;
+  width: 4rem;
+  height: 5rem;
+  background-color: white;
+}
+
+.mobile_lang_box .mobile_lang {
+  width: 100%;
+  height: calc(100% / 3);
+  line-height: 1.65rem;
+  padding-left: 1rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.header .header_nav_btn {
+  margin-left: 0.75rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+.header_nav_btn .btn_bar {
+  height: 0.15rem;
+  background-color: black;
+  position: absolute;
+  left: 0;
+}
+
+.btn_bar1 {
+  width: 1rem;
+}
+
+.btn_bar2 {
+  width: 1rem;
+}
+
+.btn_bar3 {
+  width: 1rem;
+}
+
+.btn_rotate_top {
+  width: 1.25rem;
+}
+
+.btn_rotate_bottom {
+  width: 1.25rem;
+}
+
+.header_nav {
+  width: 14rem;
+}
+
+.nav_left {
+  font-size: 1.25rem;
+}
+
+.nav_right {
+  font-size: 0.75rem;
+  top: 8.5rem;
+  left: 4rem;
+}

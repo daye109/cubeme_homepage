@@ -1,0 +1,95 @@
+/* banner */
+
+.products_sec1 .products_banner {
+  display: none;
+}
+
+.products_banner_mobile {
+  padding-top: 60%;
+  display: block;
+  background: url("../../images/sub_products/mobile_banner.jpg") no-repeat
+    center 11%;
+  background-size: cover;
+  background-position: 50% 11%;
+}
+
+.products_sec1 .products_banner_title {
+  bottom: 1.25rem;
+
+  font-size: 2rem;
+}
+
+/* products */
+
+.products_category {
+  display: block;
+  table-layout: none;
+}
+
+.products_title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: inherit;
+  padding: 10% 2.5% 0;
+}
+
+.products_title > div > p:nth-child(1) {
+  font-size: 1.25rem;
+}
+.products_title > div > p:nth-child(2) {
+  font-size: 0.65rem;
+  margin: 1rem 0 0;
+}
+
+.products_title > a {
+  padding: 0 0;
+  width: 6.85rem;
+  height: 2.45rem;
+  font-size: 0.65rem;
+  text-align: center;
+  line-height: 2.25rem;
+}
+
+.products_swiper_container {
+  margin-top: 3%;
+  width: 100%;
+  display: block;
+}
+
+.products_swiper img {
+  max-width: 9.2rem;
+
+  transition: all 0.5s;
+  margin-bottom: 0.75rem;
+}
+
+.products_swiper img:hover {
+  transform: scale(1.1);
+  transition: all 0.6s;
+}
+
+.products_swiper:hover {
+  background-color: inherit;
+  transition: none;
+}
+
+.products_swiper > .product_name {
+  font-size: 0.8rem;
+}
+
+.products_swiper > .product_day {
+  font-size: 0.65rem;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.swiper-button-next > i,
+.swiper-button-prev > i {
+  font-size: 0.6rem;
+}
