@@ -99,6 +99,8 @@
 .products_swiper > .product_name {
   font-size: 0.9rem;
   font-weight: 600;
+  text-align: center;
+  line-height: 1rem;
 }
 
 .products_swiper > .product_day {
