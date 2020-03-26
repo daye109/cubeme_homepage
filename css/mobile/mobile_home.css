@@ -250,9 +250,6 @@
   width: 100%;
 }
 
-.section5_social_mobile > div {
-}
-
 .section5_social_mobile img {
   max-width: calc(100% / 3);
   height: auto;
