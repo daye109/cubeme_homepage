@@ -258,14 +258,12 @@
 }
 
 .section5_social_mobile img {
-  /* display: inline-block; */
   float: left;
   max-width: 33.3333%;
   height: auto;
   position: relative;
   cursor: pointer;
   transition: all 0.5s;
-  /* clear: both; */
 }
 
 .section5_social_mobile img:hover {
