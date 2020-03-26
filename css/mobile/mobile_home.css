@@ -252,10 +252,11 @@
 
 .section5_social_mobile > div {
   display: flex;
+  justify-content: center;
 }
 
 .section5_social_mobile img {
-  width: calc(100% / 3);
+  max-width: calc(100% / 3);
   height: auto;
   position: relative;
   cursor: pointer;
