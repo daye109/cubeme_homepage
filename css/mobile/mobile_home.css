@@ -251,7 +251,7 @@
 }
 
 .section5_social_mobile img {
-  max-width: calc(100% / 3);
+  max-width: calc((100% - 10px) / 3);
   height: auto;
   position: relative;
   cursor: pointer;
