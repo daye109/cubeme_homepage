@@ -244,19 +244,28 @@
 
 .section5_social_mobile {
   display: block;
-}
-
-.section5_social_mobile {
   width: 100%;
 }
 
+.section5_social_mobile > div {
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
+.section5_social_mobile > div:nth-child(2) {
+  margin-bottom: 5rem;
+}
+
 .section5_social_mobile img {
-  display: inline-block;
-  max-width: 32.2%;
+  /* display: inline-block; */
+  float: left;
+  max-width: 33.3333%;
   height: auto;
   position: relative;
   cursor: pointer;
   transition: all 0.5s;
+  /* clear: both; */
 }
 
 .section5_social_mobile img:hover {
